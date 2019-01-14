@@ -1,0 +1,153 @@
+*
+{
+	margin: 0;
+	padding:0;
+}
+.video-background{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%
+	min-height:100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+
+}
+@media (min-aspect-ratio: 16/9) {
+	.video-background{
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-aspect-ratio:16/9) {
+	.video-background{
+		width: auto;
+		height: 100%;
+	}
+}
+
+header{
+	background: rgba(0,0,100,0.5);
+	height: 100vh;
+
+}
+.nav{
+	background: rgba(0,0,0,0.4);
+	height: 80px;
+
+}
+.logo{
+	margin: 10px 50px;
+	height: 60px;
+}
+.menu{
+	float: right;
+	list-style: none;
+	margin: 29px;
+}
+.menu li{
+	display: inline-block;
+	margin: 10px 5px;
+}
+.menu li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	border: 1px solid green;
+}
+.menu li a:hover{
+	background: coral;
+
+}
+.msg{
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+	color: #9faa4b;
+	top: 250px;
+	
+}
+.msg h1{
+	font-size: 60px;
+	margin: 20px;
+
+}
+.msg h2{
+	font-size: 30px;
+	margin: 10px;
+	color: #c7e5cc;
+	}
+
+.msg h3{
+	font-size: 30px;
+	margin: 5px;
+}
+
+.btn{
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-align: center;
+	font-family: sans-serif;
+	color: #9faa4b;
+	top: 280px;
+
+}
+.btn1{
+	background: coral;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 1px solid coral;
+	margin: 10px;
+
+}
+.btn2{
+	color: #fff;
+	background: #08357c;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 1px solid coral;
+	margin: 10px;
+}
+.btn2:hover{
+	background: coral;
+	
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper i {
+  padding: 10px;
+  text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+  transition: all ease-in-out 150ms;
+}
+.wrapper a:nth-child(1) {
+  color: #dd4b39;
+}
+.wrapper a:nth-child(2) {
+  color: #4867AA;
+}
+.wrapper a:nth-child(3) {
+  color: #1DA1F2;
+}
+.wrapper a:nth-child(4) {
+  color: #0077B5;
+}
+
+.wrapper i:hover {
+  margin-top: -10px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.7);
+}
